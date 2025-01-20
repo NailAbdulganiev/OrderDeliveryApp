@@ -30,7 +30,7 @@
    dotnet add package Microsoft.EntityFrameworkCore
    dotnet add package Microsoft.EntityFrameworkCoreю.Design
    dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
-3. **Настройте базу данных**
+4. **Настройте базу данных**
     Убедитесь, что PostgreSQL установлен и запущен.
     Создайте базу данных (например, Orders).
     Измените строку подключения в файле appsettings.json под ваши данные (ниже пример для стандартных настроек и БД Orders):
