@@ -39,17 +39,18 @@
    - Убедитесь, что PostgreSQL установлен и запущен.
    - Создайте базу данных (например, `Orders`).
    - Измените строку подключения в файле `appsettings.json` под ваши данные. Пример для стандартных настроек и базы данных `Orders`:
+     
      ```json
      "ConnectionStrings": {
        "ConnectionToOrdersDb": "Host=localhost;Port=5432;Database=Orders;Username=postgres;Password=ваш-пароль"
      }
      ```
-   Или под вашего пользователя и базу данных:
-   ```json
-   "ConnectionStrings": {
-     "ConnectionToOrdersDb": "Host=localhost;Database=ваша-бд;Username=ваш-username;Password=ваш-пароль"
-   }
-   ```
+    Или под вашего пользователя и базу данных:
+    ```json
+    "ConnectionStrings": {
+      "ConnectionToOrdersDb": "Host=localhost;Database=ваша-бд;Username=ваш-username;Password=ваш-пароль"
+    }
+    ```
 
 4. **Примените миграции**
    Выполните команды для создания и применения миграций к базе данных:
